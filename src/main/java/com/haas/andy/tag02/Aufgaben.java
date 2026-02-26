@@ -96,7 +96,7 @@ public class Aufgaben {
         int age = 10;
         if (age < 6) {
             System.out.println("Kind");
-        } else if (age >= 6 && age < 17) {
+        } else if (age >= 6 && age <= 17) {
             System.out.println("Jugendlich");
         } else if (age >= 18) {
             System.out.println("Erwachsen");
