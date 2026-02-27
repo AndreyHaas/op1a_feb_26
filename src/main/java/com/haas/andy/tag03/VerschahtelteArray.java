@@ -1,9 +1,10 @@
 package com.haas.andy.tag03;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.NoSuchElementException;
 
 public class VerschahtelteArray {
-    public static void main(String[] args) {
+    static void main() {
         // =====================================
         // 1. Einführung: 1-Dimensionales Array
         // =====================================
@@ -81,13 +82,13 @@ public class VerschahtelteArray {
 
         System.out.println("Anzahl der Jahre der Schüler 1: " + schulStatistik[0].length);       // -> 3 (Jahre)
 
-        System.out.println("Anzahl der Prüfungen der Schüler 1 in ersten Jahr: " + schulStatistik[0][0].length); // -> 4 (Prüfungen pro Jahr)
+        System.out.println("Anzahl der Prüfungen der Schüler 1 in ersten Jahr: " + schulStatistik[0][0].length); // 4 (Prüfungen pro Jahr)
 
         // =====================================
         // 6. Ausgabe eines 3D-Arrays mit for-Schleife
         // =====================================
         // Strukturierte Ausgabe des Arrays,
-//     // =====================================
+        // =====================================
         //     // 7. Nachträgliche Initialisierung eines 2D-Arrays
         //     // =====================================
         //     // Erstellen eines 2D-Arrays mit 3 Klassen a verschiedenen Größen für jede Klasse.
@@ -134,5 +135,83 @@ public class VerschahtelteArray {
                 }
             }
         }
+
+        // Hausaufgabe
+
+        /*
+         Maximum in 2D-Array
+         */
+        int[][] zahlen = {
+                {3, 7, 2},
+                {9, 4, 1},
+                {6, 8, 5}
+        };
+
+        int max = zahlen[0][0];
+
+        for (int i = 0; i < zahlen.length; i++) {
+            for (int j = 0; j < zahlen[i].length; j++) {
+                if (zahlen[i][j] > max) {
+                    max = zahlen[i][j];
+                }
+            }
+        }
+
+        System.out.println("Maximum: " + max);
+        int max1 = Arrays.stream(zahlen)
+                .flatMapToInt(Arrays::stream)
+                .max()
+                .orElseThrow(() -> new NoSuchElementException("Array is empty"));
+
+        System.out.println("Maximum with stream: " + max1);
+
+        /*
+            Multiplikationstabelle.
+            Erstellen Sie ein 10x10-Array und speichern Sie darin eine Multiplikationstabelle.
+         */
+        int[][] tabelle = new int[10][10];
+
+        for (int i = 0; i < tabelle.length; i++) {
+            for (int j = 0; j < tabelle[i].length; j++) {
+                tabelle[i][j] = (i + 1) * (j + 1);
+            }
+        }
+
+        System.out.println("Pythagoras tabelle:");
+        System.out.println("========================================");
+
+        for (int[] ints : tabelle) {
+            for (int anInt : ints) {
+                System.out.printf("%4d", anInt);
+            }
+            System.out.println();
+        }
+
+        /*
+            Diagonalsumme
+            Berechnen Sie bei einer 3x3-Matrix die Summe der Hauptdiagonale.
+        */
+        int[][] matrix = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+
+        int summ = hauptdiagonaleSummeBerechnung(matrix);
+        System.out.println("Hauptdiagonale Summe läutet: " + summ);
+    }
+
+    public static int hauptdiagonaleSummeBerechnung(int[][] matrix) {
+        if (matrix == null || matrix.length != matrix[0].length) {
+            throw new IllegalArgumentException("Matrix muss quadratisch sein!");
+        }
+
+        int summe = 0;
+
+        for (int i = 0; i < matrix.length; i++) {
+            summe += matrix[i][i];
+        }
+
+        return summe;
     }
 }
