@@ -180,8 +180,11 @@ public class VerschahtelteArray {
         System.out.println("Pythagoras tabelle:");
         System.out.println("========================================");
 
-        for (int[] ints : tabelle) {
-            for (int anInt : ints) {
+        for (int i = 0; i < tabelle.length; i++) {
+            int[] ints = tabelle[i];
+
+            for (int j = 0; j < ints.length; j++) {
+                int anInt = ints[j];
                 System.out.printf("%4d", anInt);
             }
             System.out.println();
