@@ -2,22 +2,17 @@ Generics in Java - Das vollständige Handbuch 📚
 Inhaltsverzeichnis
 Was sind Generics?
 
-1. [Was sind Generics?](#Was-sind-Generics?)
-2. [Warum Generics?](#warum-generics?)
-3. [Generische Klassen](#genenerische-klassen)
+1. [Was sind Generics?](#Was-sind-Generics)
+2. [Warum Generics?](#warum-generics)
+3. [Generische Klassen](#generische-klassen)
 4. [Generische Methoden](#generische-methoden)
-
-Generische Interfaces
-
-Wildcards (?)
-
-Type Bounds (Einschränkungen)
-
-Type Inference (Typinferenz)
-
-Raw Types (Roh-Typen)
-
-Best Practices
+5. [Generische Interfaces](#generische-interfaces)
+6. [Wildcards](#wildcards-)
+7. [Type Bounds (Einschränkungen)](#type-bounds-einschränkungen)
+8. [Type Inference (Typinferenz)](#type-inference-typinferenz)
+9. [Raw Types (Roh-Typen)](#raw-types-roh-typen)
+10. [Best Practices](#best-practices)
+11. [Zusammenfassung](#zusammenfassung-)
 
 ## Was sind Generics?
    Generics (Generika) sind ein Feature in Java, das es ermöglicht, Klassen, Interfaces und Methoden mit Typparametern zu definieren. Sie wurden mit Java 5 eingeführt und ermöglichen Typsicherheit zur Compile-Zeit. 
@@ -336,7 +331,7 @@ public class MyClass<T> {
     private T obj = new T();  // Compiler-Fehler!
 }
 ```
-### 10.1 Typlöschung (Type Erasure) verstehen
+### Typlöschung (Type Erasure) verstehen
 ``` java
 // Zur Compile-Zeit:
 List<String> strings = new ArrayList<>();
@@ -348,7 +343,7 @@ List strings = new ArrayList();  // Typ-Information verloren
 if (strings instanceof List<String>)  // Compiler-Fehler!
 if (strings instanceof List)          // OK (aber nur Roh-Typ)
 ```
-### 10.2 Häufige Anwendungen
+### Häufige Anwendungen
 ``` java
 // 1. Collections Framework
 List<String> list = new ArrayList<>();
