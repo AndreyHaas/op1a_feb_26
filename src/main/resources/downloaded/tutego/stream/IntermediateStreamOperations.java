@@ -1,5 +1,3 @@
-package com.tutego.stream;
-
 import java.util.Comparator;
 
 public class IntermediateStreamOperations {

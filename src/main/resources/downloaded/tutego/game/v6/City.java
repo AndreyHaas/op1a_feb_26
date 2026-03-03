@@ -1,5 +1,3 @@
-package com.tutego.game.v6;
-
 public class City {
   private final String name;
   private Player player;

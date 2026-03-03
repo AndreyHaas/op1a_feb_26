@@ -1,5 +1,3 @@
-package com.tutego.lambda;
-
 import java.util.function.Predicate;
 
 public class LambdaScope {

@@ -1,5 +1,3 @@
-package com.tutego.game.v2;
-
 public class Gameplay {
   public static void main( String[] args ) {
     Candy lollipop = new Candy();

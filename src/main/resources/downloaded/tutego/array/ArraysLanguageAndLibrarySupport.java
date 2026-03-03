@@ -1,5 +1,3 @@
-package com.tutego.array;
-
 public class ArraysLanguageAndLibrarySupport {
   public static void main( String[] args ) {
 

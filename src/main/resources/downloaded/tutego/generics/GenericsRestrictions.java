@@ -1,5 +1,3 @@
-package com.tutego.generics;
-
 import java.util.ArrayList;
 
 public class GenericsRestrictions {

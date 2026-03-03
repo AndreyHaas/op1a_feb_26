@@ -1,5 +1,3 @@
-package com.tutego.collection;
-
 import java.util.LinkedList;
 import java.util.Queue;
 

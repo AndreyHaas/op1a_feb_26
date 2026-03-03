@@ -1,5 +1,3 @@
-package com.tutego.lang;
-
  /*
    Use of null:
 

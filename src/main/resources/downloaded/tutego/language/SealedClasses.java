@@ -1,5 +1,3 @@
-package com.tutego.language;
-
 public class SealedClasses {
   static Result bake() {
     return new Success();

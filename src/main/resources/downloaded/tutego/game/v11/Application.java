@@ -1,5 +1,3 @@
-package com.tutego.game.v11;
-
 // class Object { Object() { /*1*/} }
 
 class Event extends Object {

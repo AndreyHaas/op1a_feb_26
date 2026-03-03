@@ -1,5 +1,3 @@
-package com.tutego.game.v5;
-
 import java.awt.*;
 
 public class Constructors {

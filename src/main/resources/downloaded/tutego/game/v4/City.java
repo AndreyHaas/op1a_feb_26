@@ -1,5 +1,3 @@
-package com.tutego.game.v4;
-
 public class City {
   /*
                   (2_90)

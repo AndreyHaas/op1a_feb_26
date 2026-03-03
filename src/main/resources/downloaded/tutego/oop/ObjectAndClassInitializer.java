@@ -1,5 +1,3 @@
-package com.tutego.oop;
-
 import java.time.LocalDate;
 
 //class Game {

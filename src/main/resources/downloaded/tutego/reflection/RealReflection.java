@@ -1,5 +1,3 @@
-package com.tutego.reflection;
-
 import java.awt.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

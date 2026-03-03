@@ -1,5 +1,3 @@
-package com.tutego.language.enumeration;
-
 import java.util.Objects;
 
 public class CandyTypeEnumeration {

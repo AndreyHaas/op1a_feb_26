@@ -1,5 +1,3 @@
-package com.tutego.io;
-
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;

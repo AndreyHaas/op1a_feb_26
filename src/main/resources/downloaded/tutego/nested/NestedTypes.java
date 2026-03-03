@@ -1,5 +1,3 @@
-package com.tutego.nested;
-
 import com.tutego.nested.NestedStaticTypes.NonNullPredicate;
 
 public class NestedTypes {   // <-- Top level class

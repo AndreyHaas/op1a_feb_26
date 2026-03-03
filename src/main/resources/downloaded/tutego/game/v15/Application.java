@@ -1,5 +1,3 @@
-package com.tutego.game.v15;
-
 /*
 class Object {
   ...

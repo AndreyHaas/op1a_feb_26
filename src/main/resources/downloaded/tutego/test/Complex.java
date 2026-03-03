@@ -1,5 +1,3 @@
-package com.tutego.test;
-
 public record Complex( double real, double imaginary ) {
 
   public static Complex ZERO = new Complex( 0, 0 );

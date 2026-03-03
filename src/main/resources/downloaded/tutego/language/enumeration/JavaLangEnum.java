@@ -1,5 +1,3 @@
-package com.tutego.language.enumeration;
-
 public class JavaLangEnum {
 
   enum Country {

@@ -1,5 +1,3 @@
-package com.tutego.reflection;
-
 import java.awt.*;
 
 public class ClassObject {

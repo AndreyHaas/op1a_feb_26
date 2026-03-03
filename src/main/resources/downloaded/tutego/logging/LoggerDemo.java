@@ -1,5 +1,3 @@
-package com.tutego.logging;
-
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

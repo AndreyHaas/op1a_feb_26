@@ -1,5 +1,3 @@
-package com.tutego.stream;
-
 import java.util.stream.IntStream;
 
 public class PrimitiveStreams {

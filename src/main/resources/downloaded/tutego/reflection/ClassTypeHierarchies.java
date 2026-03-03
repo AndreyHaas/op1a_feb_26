@@ -1,5 +1,3 @@
-package com.tutego.reflection;
-
 public class ClassTypeHierarchies {
   public static void main( String[] args ) {
 

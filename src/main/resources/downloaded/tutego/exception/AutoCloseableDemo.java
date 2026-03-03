@@ -1,5 +1,3 @@
-package com.tutego.exception;
-
 public class AutoCloseableDemo {
   public static void main( String[] args ) {
     try ( OutputResource output = new OutputResource();   // 2. close()

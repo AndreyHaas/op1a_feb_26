@@ -1,5 +1,3 @@
-package com.tutego.language.records;
-
 import java.util.Objects;
 
 public class RecordDemo {

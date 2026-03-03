@@ -1,5 +1,3 @@
-package com.tutego.string;
-
 import java.util.StringTokenizer;
 
 public class StringTokenizerDemo {

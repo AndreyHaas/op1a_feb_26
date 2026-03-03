@@ -1,5 +1,3 @@
-package com.tutego.test;
-
 public class ArrayUtils {
 
   public static double average( int[] numbers ) {

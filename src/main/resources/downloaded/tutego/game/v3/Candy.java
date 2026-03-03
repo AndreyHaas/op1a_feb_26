@@ -1,5 +1,3 @@
-package com.tutego.game.v3;
-
 public class Candy {
   private String name;
   private int price;

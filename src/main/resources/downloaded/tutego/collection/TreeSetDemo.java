@@ -1,5 +1,3 @@
-package com.tutego.collection;
-
 import java.util.Arrays;
 import java.util.NavigableSet;
 import java.util.TreeSet;

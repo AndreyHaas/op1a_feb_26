@@ -1,5 +1,3 @@
-package com.tutego.io;
-
 import com.tutego.io.CoordinateWriter.Coordinate;
 
 import java.io.File;

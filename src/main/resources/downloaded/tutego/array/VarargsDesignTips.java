@@ -1,5 +1,3 @@
-package com.tutego.array;
-
 public class VarargsDesignTips {
   public static void main( String... args ) {
 

@@ -1,5 +1,3 @@
-package com.tutego.reflection;
-
 //@FunctionalInterface
 @SuppressWarnings( "deprecation" )
 public class ReadAnnotations {

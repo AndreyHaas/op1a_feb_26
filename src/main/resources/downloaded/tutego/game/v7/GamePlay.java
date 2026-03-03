@@ -1,7 +1,3 @@
-package com.tutego.game.v7;
-
-import com.tutego.game.v7.Candy.CandyType;
-
 public class GamePlay {
 
   public static void main( String[] args ) {

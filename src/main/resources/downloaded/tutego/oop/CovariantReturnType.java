@@ -1,5 +1,3 @@
-package com.tutego.oop;
-
 public class CovariantReturnType {
 
   class Event {}

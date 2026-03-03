@@ -1,5 +1,3 @@
-package com.tutego.os;
-
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 

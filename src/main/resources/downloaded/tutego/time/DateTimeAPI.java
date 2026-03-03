@@ -1,5 +1,3 @@
-package com.tutego.time;
-
 import java.time.*;
 
 public class DateTimeAPI {

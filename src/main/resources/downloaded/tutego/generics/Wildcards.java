@@ -1,5 +1,3 @@
-package com.tutego.generics;
-
 import java.util.List;
 
 public class Wildcards {

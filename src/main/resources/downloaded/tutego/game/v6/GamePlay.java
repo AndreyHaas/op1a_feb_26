@@ -1,5 +1,3 @@
-package com.tutego.game.v6;
-
 public class GamePlay {
   public static void main( String[] args ) {
 

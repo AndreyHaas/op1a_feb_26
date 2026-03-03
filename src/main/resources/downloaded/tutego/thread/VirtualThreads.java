@@ -1,5 +1,3 @@
-package com.tutego.thread;
-
 import java.util.Scanner;
 
 public class VirtualThreads {

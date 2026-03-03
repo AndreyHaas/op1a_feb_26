@@ -1,5 +1,3 @@
-package com.tutego.util;
-
 import java.util.LinkedList;
 import java.util.function.IntBinaryOperator;
 

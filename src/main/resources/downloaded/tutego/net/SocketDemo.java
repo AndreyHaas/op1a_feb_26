@@ -1,5 +1,3 @@
-package com.tutego.net;
-
 import javax.net.SocketFactory;
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,5 +1,3 @@
-package com.tutego.collection;
-
 import java.util.*;
 
 public class HashSetDemo {

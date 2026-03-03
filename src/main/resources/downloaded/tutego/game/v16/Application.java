@@ -1,5 +1,3 @@
-package com.tutego.game.v16;
-
 /*
  Regular class:  A class that may have subclasses.
  Final Class:    A class that does not allow subclasses.

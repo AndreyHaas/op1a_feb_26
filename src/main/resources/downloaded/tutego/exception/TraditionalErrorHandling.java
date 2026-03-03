@@ -1,4 +1,3 @@
-package com.tutego.exception;
 
 /*
 - https://git.savannah.gnu.org/cgit/coreutils.git/tree/src/whoami.c

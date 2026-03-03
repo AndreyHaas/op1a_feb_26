@@ -1,5 +1,3 @@
-package com.tutego.thread;
-
 import java.io.File;
 import java.math.BigInteger;
 import java.util.concurrent.ThreadLocalRandom;

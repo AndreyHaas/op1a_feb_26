@@ -1,5 +1,3 @@
-package com.tutego.game.v1;
-
 public class Candy {
 
   String name = "";

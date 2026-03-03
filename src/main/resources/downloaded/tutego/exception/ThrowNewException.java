@@ -1,5 +1,3 @@
-package com.tutego.exception;
-
 import java.io.IOException;
 import java.nio.file.Path;
 

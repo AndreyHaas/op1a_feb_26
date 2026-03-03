@@ -1,5 +1,3 @@
-package com.tutego.array;
-
 import java.util.Scanner;
 
 public class MultiDimensionalArrays {

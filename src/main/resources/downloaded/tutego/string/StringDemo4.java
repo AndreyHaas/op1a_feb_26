@@ -1,5 +1,3 @@
-package com.tutego.string;
-
 import java.util.Locale;
 
 public class StringDemo4 {

@@ -1,5 +1,3 @@
-package com.tutego.io;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HexFormat;

@@ -1,5 +1,3 @@
-package com.tutego.language.interfaces;
-
 public class ImplementingCharSequence {
   public static void main( String[] args ) {
     CharSequence x = new RepeatingCharacters( 10, 'x' );

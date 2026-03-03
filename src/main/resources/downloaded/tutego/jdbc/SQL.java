@@ -1,5 +1,3 @@
-package com.tutego.jdbc;
-
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.sql.Connection;

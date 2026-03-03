@@ -1,5 +1,3 @@
-package com.tutego.collection;
-
 import java.util.HashMap;
 import java.util.Map;
 

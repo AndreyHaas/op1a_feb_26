@@ -1,5 +1,3 @@
-package com.tutego.oop;
-
 public class PublicStaticFinal {
 
   public final static double PI = 3.1415;

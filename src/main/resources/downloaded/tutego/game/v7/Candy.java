@@ -1,5 +1,3 @@
-package com.tutego.game.v7;
-
 class Candy {
 
   enum CandyType {

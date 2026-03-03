@@ -1,5 +1,3 @@
-package com.tutego.oop;
-
 import java.time.Duration;
 
 class Event {

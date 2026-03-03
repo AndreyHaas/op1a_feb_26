@@ -1,5 +1,3 @@
-package com.tutego.lambda;
-
 public class MethodReferences2 {
   public static void main( String[] args ) {
     /*

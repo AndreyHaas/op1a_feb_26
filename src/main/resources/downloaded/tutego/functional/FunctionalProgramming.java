@@ -1,5 +1,3 @@
-package com.tutego.functional;
-
 /*
   +--+--> Imperative languages
      |

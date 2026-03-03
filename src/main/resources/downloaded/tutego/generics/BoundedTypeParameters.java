@@ -1,5 +1,3 @@
-package com.tutego.generics;
-
 import java.io.Serializable;
 
 public class BoundedTypeParameters {

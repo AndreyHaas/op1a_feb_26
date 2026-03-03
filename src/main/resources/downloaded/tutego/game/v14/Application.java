@@ -1,5 +1,3 @@
-package com.tutego.game.v14;
-
 class Event {
   String about;
   int duration;

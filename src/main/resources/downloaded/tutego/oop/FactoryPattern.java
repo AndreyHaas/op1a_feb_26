@@ -1,5 +1,3 @@
-package com.tutego.oop;
-
 import java.time.LocalTime;
 import java.util.Scanner;
 

@@ -1,5 +1,3 @@
-package com.tutego.string;
-
 import java.util.Formatter;
 import java.util.Locale;
 

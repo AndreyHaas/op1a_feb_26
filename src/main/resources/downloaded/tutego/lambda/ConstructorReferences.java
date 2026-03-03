@@ -1,5 +1,3 @@
-package com.tutego.lambda;
-
 import java.awt.*;
 import java.math.BigDecimal;
 import java.util.function.IntFunction;

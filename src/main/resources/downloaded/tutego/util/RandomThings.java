@@ -1,5 +1,3 @@
-package com.tutego.util;
-
 import java.security.SecureRandom;
 import java.util.Random;
 import java.util.UUID;

@@ -1,5 +1,3 @@
-package com.tutego.thread;
-
 import java.time.LocalTime;
 import java.util.concurrent.TimeUnit;
 

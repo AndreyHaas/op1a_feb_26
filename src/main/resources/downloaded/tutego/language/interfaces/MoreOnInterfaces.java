@@ -1,5 +1,3 @@
-package com.tutego.language.interfaces;
-
 public class MoreOnInterfaces {
 
   MoreOnInterfaces() {

@@ -1,5 +1,3 @@
-package com.tutego.array;
-
 public class ArrayInitializer {
   public static void main( String[] args ) {
     int[] numbers = new int[ 3 ];

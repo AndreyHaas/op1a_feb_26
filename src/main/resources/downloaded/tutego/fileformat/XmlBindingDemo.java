@@ -1,5 +1,3 @@
-package com.tutego.fileformat;
-
 import jakarta.xml.bind.JAXB;
 import jakarta.xml.bind.annotation.XmlElement;
 

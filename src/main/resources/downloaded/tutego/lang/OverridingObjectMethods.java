@@ -1,5 +1,3 @@
-package com.tutego.lang;
-
 import java.util.Objects;
 
 public class OverridingObjectMethods {

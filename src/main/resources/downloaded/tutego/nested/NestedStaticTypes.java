@@ -1,5 +1,3 @@
-package com.tutego.nested;
-
 import java.util.function.Predicate;
 
 public class NestedStaticTypes {

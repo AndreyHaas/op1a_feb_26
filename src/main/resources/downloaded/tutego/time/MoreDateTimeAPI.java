@@ -1,5 +1,3 @@
-package com.tutego.time;
-
 public class MoreDateTimeAPI {
   public static void main( String[] args ) {
   /*

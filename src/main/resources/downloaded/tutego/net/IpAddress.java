@@ -1,5 +1,3 @@
-package com.tutego.net;
-
 import java.io.IOException;
 import java.net.InetAddress;
 

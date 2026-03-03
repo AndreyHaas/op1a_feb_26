@@ -1,5 +1,3 @@
-package com.tutego.oop;
-
 import java.awt.*;
 import java.util.ArrayList;
 

@@ -1,5 +1,3 @@
-package com.tutego.math;
-
 import java.math.BigInteger;
 
 public class BigIntegerDemo {

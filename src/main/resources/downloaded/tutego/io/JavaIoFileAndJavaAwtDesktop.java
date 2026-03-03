@@ -1,5 +1,3 @@
-package com.tutego.io;
-
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;

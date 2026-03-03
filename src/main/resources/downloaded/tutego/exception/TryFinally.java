@@ -1,5 +1,3 @@
-package com.tutego.exception;
-
 import java.math.BigInteger;
 import java.util.concurrent.TimeUnit;
 

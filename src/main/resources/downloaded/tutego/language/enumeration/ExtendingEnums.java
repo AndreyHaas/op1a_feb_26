@@ -1,5 +1,3 @@
-package com.tutego.language.enumeration;
-
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ExtendingEnums {

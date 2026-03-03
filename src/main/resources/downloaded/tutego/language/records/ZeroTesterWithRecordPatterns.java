@@ -1,5 +1,3 @@
-package com.tutego.language.records;
-
 public class ZeroTesterWithRecordPatterns {
 
   static boolean isZeroPoint( Object object ) {

@@ -1,5 +1,3 @@
-package com.tutego.stream;
-
 import java.util.stream.Stream;
 
 public class TerminalStreamOperations {

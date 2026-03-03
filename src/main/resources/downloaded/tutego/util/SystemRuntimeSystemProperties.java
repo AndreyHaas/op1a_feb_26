@@ -1,5 +1,3 @@
-package com.tutego.util;
-
 public class SystemRuntimeSystemProperties {
   public static void main( String[] args ) {
 

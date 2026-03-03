@@ -1,5 +1,3 @@
-package com.tutego.line;
-
 /* package visible */
 class Line {
   /* package visible */

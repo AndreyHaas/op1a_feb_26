@@ -1,5 +1,3 @@
-package com.tutego.string;
-
 public class StringDemo5 {
   public static void main( String[] args ) {
 

@@ -1,5 +1,3 @@
-package com.tutego.util;
-
 import java.util.Comparator;
 import java.util.Objects;
 
