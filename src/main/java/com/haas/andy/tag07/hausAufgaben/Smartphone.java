@@ -55,7 +55,10 @@ public class Smartphone {
     }
 
     String zeigeDetails() {
-        return this.marke + " " + this.modell + " " + this.speicher + " " + this.preis;
+        return "Marke: " + getMarke() +
+                ", Modell :" + getModell() +
+                ", Speicher: " + getSpeicher() +
+                ", Preis: " + getPreis();
     }
 
     double preisNachRabatt(double rabattProzent){
